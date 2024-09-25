@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.menu-bar {
+  display: flex;
+  background-color: yellow;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.toolbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.toolbox button {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.toolbox button.selected {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popup h3 {
+  margin-top: 0;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  margin-right: 10px;
+}
+
+.canvas-container {
+  margin-top: 20px;
+}
+
+canvas {
+  margin: 20px auto;
+  border: 2px solid black;
+}
+
+.control-panel {
+  margin-top: 5px;
+  
+  color: yellow;
+}
+
+.control-panel button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Add this to your CSS file */
+
+/* General body styling if needed */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the container */
+.DrawingCanvasContainer {
+  background-color: grey; /* Background color of the container */
+  padding: 20px; /* Padding around the canvas */
+  position: relative;
+}
+
+/* Canvas styling */
+canvas {
+  background-color: white; /* Page color */
+  border: 10px solid black; /* Border style, adjust as needed */
+}
+
+/* Ensure text input styling */
+input[type="text"] {
+  background-color: white;
+}
+
+/* Add these styles to your CSS file */
+
+/* Ensure grey background for the whole container */
+.DrawingCanvasContainer {
+    background-color: grey; /* Background color for the container */
+    padding: 20px; /* Padding around the canvas */
+    position: relative;
+}
+
+/* Canvas styling */
+canvas {
+    background-color: white; /* Page color */
+    border: 10px solid black; /* Default border style */
+}
+
